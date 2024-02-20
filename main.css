@@ -1,3 +1,28 @@
 .list {
   list-style-type: none;
 }
+.item_link {
+  text-decoration-line:none;
+  font-size: 18px;
+}
+.wraper-text {
+  width: 440px;
+}
+.hero_title {
+  font-size: 48px;
+}
+
+.hero_link {
+  text-decoration-line:none;
+  border-radius: 55px;
+  background-color: #458FF6;
+  color:#fff;
+}
+
+.line {
+  
+  display: inline-block;
+  width: 56px;
+  height: 2px;
+  background-color:#000;
+}
