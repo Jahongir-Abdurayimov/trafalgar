@@ -1,22 +1,35 @@
 
-/* img {
-  display: block;
-} */
-
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
 .site_heder {
-  width: 100%;
+  padding: 20px 0;
 }
-.nav {
+.site_logo_link {
   display: inline-block;
-  
-
+  margin-right: 50px;
 }
-.list {
+.sitenav {
   display: inline-block;
-
 }
-.list_item {
+.sitenav-list {
+  display: inline-block;
+  padding-left: 0;
+}
+.sitenav_item {
+  margin-right:40px;
   display: inline;
+}
+.last {
+  margin: 0;
 }
 .item_link {
   text-decoration-line: none;
@@ -26,14 +39,21 @@
 .home {
   color: #1F1534;
 }
+.hero {
+  padding: 75px 0 200px ;
+}
 .hero_title {
+  margin: 0 0 30px;
   font-size: 48px;
+
 }
 .title_desc {
+  margin: 0 0 40px;
   font-size: 21px;
   color:#7D7987;
 }
 .hero_link {
+  display: inline-block;
   text-decoration-line: none;
   color: #fff;
   background-color:#458FF6;
@@ -45,6 +65,7 @@
   width: 440px;
 }
 .wrapper_services_text {
+  margin: 0 auto;
   width: 952px;
   text-align: center;
 }
@@ -57,9 +78,17 @@
 
   
 }
+.prdered_list {
+  padding-left: 0;
+}
+.services {
+  padding-bottom: 28px;
+}
 
 .types_list {
   display: inline-block;
+  padding: 68px 59px 48px 41px;
+  margin-bottom: 40px;
   width: 380px;
 }
 .types_list_name {
@@ -81,6 +110,9 @@
   text-align: center; 
 
 }
+.about {
+  padding: 213px 0 250px;
+}
 
 .wrapper_about_title {
   display: inline-block;
@@ -93,22 +125,34 @@
   color: #7d7987;
   font-size: 18px;
 }
+.aside {
+  padding-bottom: 200px;
+}
 
 .aside_inner {
+  padding: 73px 119px 89px 119px;
   text-align: center;
   width: 1180px;
   background-color:#67C3F3;
+  border-radius: 24px;
 }
 .aside_title {
   color: #fff;
 }
 
 .aside_line {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 40px;
   background-color: #fff;
 }
 .aside_img {
-  display: block;
+  display: inline-block;
   border-radius:50%;
+  margin-right: 31px;
+}
+.wrapper-worker-name {
+  display: inline-block;
 }
 .worker_name {
   color: #fff;
@@ -126,10 +170,13 @@
 }
 .check_title {
   text-align: center;
+  font-size: 36px;
+  margin: 0 0 30px;
 }
 .check_line {
   display: block;
   margin: 0 auto;
+  margin: 0 0 42px;
 
 }
 .check_list {
