@@ -7,9 +7,9 @@
   <link rel="stylesheet" href="./main.css">
 </head>
 <body>
-  <header class="site_heder">
+  <header class="site_header">
     <div class="container">
-      <div class="herader-inner">
+      <div class="header-inner">
     <a class="site_logo_link" href="/"><img class="site_logo" src="./images/site_logo.svg" alt="site logo" width="160" height="41"></a>
    <nav class="sitenav">
     <ul class="sitenav-list">
@@ -26,12 +26,14 @@
   <main class="site_main">
     <section class="hero">
       <div class="container">
+<div class="hero-inner">
       <div class="wraper-text">
         <h1 class="hero_title">Virtual healthcare for you</h1>
         <p class="title_desc">Trafalgar provides progressive, and affordable  healthcare, accessible on mobile and online  for everyone</p>
         <a class="hero_link" href="">Consult today</a>
       </div>
       <img class="hero_img" src="./images/trafalgar-headerillustration.png" alt="the mean img in trafalgar" width="609" height="532">
+    </div>
     </div>
     </section>
     <section class="services">
@@ -73,29 +75,39 @@
           <p class="name_desc">Track and save your medical history and health data </p>
         </li>
       </ol>
-      <a class="services_link" href="/">Learn more</a>
+      <a class=" more_desc services_link" href="/">Learn more</a>
     </div>
     </section>
 
     <section class="about">
       <div class="container">
+        <div class="about-inner">
+
+        
       <!-- <h2></h2> -->
+      <div class="about-start">
       <img class="about_img" src="./images/trafalgar-illustrationsec.png" alt="" width="628" height="463">
       <div class="wrapper_about_title">
         <h3 class="about_title">Leading healthcare providers</h3>
+        <span class="line about-line"></span>
         <p class="about_title_desc">Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone. To us, it’s not just work. We take pride 
           in the solutions we deliver</p>
-          <a class="more_desc services_link" href="">Learn more</a>
+          <a class=" services_link" href="">Learn more</a>
         </div>
-      
+      </div>
+<div class="about-end">
+        <img class="about_img" src="./images/trafalgar-illustrationsec1.png" alt="" width="665" height="434">
       <div class="wrapper_about_title">
-        <h3 class="about_title">Download our mobile apps</h3>
+         <h3 class="about_title">Download our mobile apps</h3>
+         <span class="line about-line"></span>
         <p class="about_title_desc">Our dedicated patient engagement app and 
           web portal allow you to access information instantaneously (no tedeous form, long calls, 
           or administrative hassle) and securely</p>
           <a class="download services_link " href="">Download</a>
       </div>
-          <img class="about_img" src="./images/trafalgar-illustrationsec1.png" alt="" width="665" height="434">
+      </div>
+
+           </div>
         </div>
     </section>
     <article class="aside">
@@ -103,44 +115,58 @@
       <div class="aside_inner">
         <h2 class="aside_title">What our customer are saying</h2>
         <span class="line aside_line"></span>
-        <img class="aside_img" src="./images/articleimg.png" alt="" width="149" height="149" srcset="./images/articleimg.png 1x, ./images/articleimg@2.png 2x">
+        <div class="wrapper-aside-text">
+        <div class="wrapper-worker">
+        <img class="aside_img" src="./images/articleimg.png" alt="" width="149" height="149" srcset="./images/articleimg.png 1x, ./images/articleimg@2x.png 2x">
         <div class="wrapper-worker-name">
           <strong class="worker_name">Edward Newgate</strong>
           <p class="worker">Founder Circle</p>
         </div>
-        <blockquote class="worker_words" cite="Edward Newgate">“Our dedicated patient engagement app and 
+      </div>
+        <div class="wrapper-worker-words">
+        <blockquote class="worker_words" cite="https://www.google.com">“Our dedicated patient engagement app and 
           web portal allow you to access information instantaneously (no tedeous form, long calls, 
           or administrative hassle) and securely”</blockquote>
+        </div>
+      </div>
       </div>
     </div>
     </article>
     <section class="check">
       <div class="container">
+        <div class="wrapper-chech-title">
       <h2 class="check_title">Check out our latest article</h2>
       <span class="line check_line"></span>
+      </div>
       <ul class="check_list">
         <li class="check_item">
           <img class="item_img" src="./images/check_up.png" alt="" width="380" height="240" srcset="./images/check_up.png 1x, ./images/check_up@2x.png 2x">
+          <div class="wrapper_item_title">
           <h3 class="item_title">Disease detection, check 
             up in the laboratory</h3>
             <p class="item_title_desc">In this case, the role of the health laboratory is very important to do
               a disease detection...</p>
               <a class="check_item_link" href="">Read more</a>
+            </div>
         </li>
         <li class="check_item">
           <img class="item_img" src="./images/lab.png" alt="" width="380" height="240" srcset="./images/lab.png 1x, ./images/lab@2x.png 2x ">
+          <div class="wrapper_item_title">
           <h3 class="item_title">Herbal medicines that are 
             safe for consumption</h3>
             <p class="item_title_desc">Herbal medicine is very widely used at this time because of its very good for your health...</p>
               <a class="check_item_link" href="">Read more</a>
+          </div>
         </li>
         <li class="check_item">
           <img class="item_img" src="./images/natural.png" alt="" width="380" height="240" srcset="./images/natural.png 1x, ./images/natural@2x.png 2x">
+          <div class="wrapper_item_title">
           <h3 class="item_title">Disease detection, check 
             up in the laboratory</h3>
             <p class="item_title_desc">In this case, the role of the health laboratory is very important to do
               a disease detection...</p>
               <a class="check_item_link" href="">Read more</a>
+            </div>
         </li>
       </ul>
       <a class="more" href="">View all</a>
@@ -152,11 +178,13 @@
   <footer class="site_footer">
     <div class="container">
    <div class="footer_inner">
+    <div class="wrapper-footer-logo">
     <a class="footer_logo_link" href="/"><img class="footer_logo" src="./images/footer_logo.svg" alt="footer logo" width="170" height="41"></a>
     <p class="footer_text">Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online 
       for everyone</p>
       <p>©Trafalgar PTY LTD <time datetime="2020-02-14">2020</time>. All rights reserved</p>
-   </div>
+    </div>
+   
       <ul class="footer_list">
         <li class="footer_item">
           <strong class="footer_item_title">Company</strong>
@@ -189,6 +217,7 @@
           </ul>
         </li>
       </ul>
+    </div>
     </div>
   </footer>
 </body>

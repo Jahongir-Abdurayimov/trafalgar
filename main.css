@@ -10,15 +10,21 @@ body {
   margin: 0 auto;
   padding: 0 10px;
 }
-.site_heder {
+.site_header {
+  
   padding: 20px 0;
+}
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .site_logo_link {
   display: inline-block;
-  margin-right: 50px;
+  
 }
 .sitenav {
-  display: inline-block;
+  
 }
 .sitenav-list {
   display: inline-block;
@@ -42,6 +48,11 @@ body {
 .hero {
   padding: 75px 0 200px ;
 }
+.hero-inner {
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+}
 .hero_title {
   margin: 0 0 30px;
   font-size: 48px;
@@ -59,6 +70,9 @@ body {
   background-color:#458FF6;
   border-radius: 55px;
   padding: 16px 35px;
+}
+.more_desc {
+  margin: 0 auto;
 }
 .wraper-text {
   display: inline-block;
@@ -79,6 +93,8 @@ body {
   
 }
 .prdered_list {
+  display: flex;
+  flex-wrap: wrap;
   padding-left: 0;
 }
 .services {
@@ -103,7 +119,7 @@ body {
   border: 1.4px solid #458FF6;
   width: 200px;
   padding: 16px 0;
-  margin: 0 auto;
+  
   text-decoration-line: none;
   color: #458FF6;
   font-size: 18px;
@@ -113,17 +129,32 @@ body {
 .about {
   padding: 213px 0 250px;
 }
+.about-start {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 250px;
+}
+.about-end {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
 
 .wrapper_about_title {
-  display: inline-block;
   width: 435px;
 }
 .about_title {
   font-size: 36px;
 }
+.about-line {
+  margin-bottom: 32px;
+}
 .about_title_desc {
   color: #7d7987;
   font-size: 18px;
+  margin-bottom: 40px;
 }
 .aside {
   padding-bottom: 200px;
@@ -131,19 +162,22 @@ body {
 
 .aside_inner {
   padding: 73px 119px 89px 119px;
-  text-align: center;
+  
   width: 1180px;
   background-color:#67C3F3;
   border-radius: 24px;
 }
 .aside_title {
   color: #fff;
+  font-size: 36px;
+  margin: 0 0 34px;
+  text-align: center;
 }
 
 .aside_line {
   display: block;
-  margin: 0 auto;
-  margin-bottom: 40px;
+  margin-block: auto;
+  margin:0 auto 40px;
   background-color: #fff;
 }
 .aside_img {
@@ -151,22 +185,42 @@ body {
   border-radius:50%;
   margin-right: 31px;
 }
+.wrapper-aside-text {
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+}
+.wrapper-worker {
+  display: flex;
+  align-items:center;
+}
 .wrapper-worker-name {
-  display: inline-block;
+  
+}
+.wrapper-worker-words {
+  
+  width: 403px;
 }
 .worker_name {
   color: #fff;
   font-size: 22px;
+  margin: 0 0 5px;
 }
 .worker {
   font-size: 18px;
   color: #ffffffe6;
+  margin: 0;
 }
 .worker_words {
-  display: inline-block;
-  width: 403px;
   color: #ffffffe6;
   font-size: 19px;
+}
+
+.wrapper-chech-title {
+  text-align: center;
+}
+.check {
+  padding-bottom: 180px;
 }
 .check_title {
   text-align: center;
@@ -174,22 +228,42 @@ body {
   margin: 0 0 30px;
 }
 .check_line {
-  display: block;
-  margin: 0 auto;
-  margin: 0 0 42px;
+  display: inline-block;
+  margin: 0 0 24px;
+  
+
 
 }
 .check_list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 90px;
+  padding-left: 0;
   list-style: none;
 }
 .check_item {
   width: 380px;
   display: inline-block;
 }
+.item_img {
+  
+}
+.wrapper_item_title {
+  margin: 30px;
+}
+.item_title {
+  font-size: 21px;
+  margin: 0 0 10px;
+}
+.item_title_desc {
+  color: #7d7987;
+  margin: 0 0 18px;
+}
 .check_item_link {
   text-decoration-line: none;
   color: #4088ed;
   font-size: 17px;
+
 }
 .more {
   display: block;
@@ -207,34 +281,57 @@ body {
 
 }
 .site_footer {
+  padding-top: 86px;
+  padding-bottom: 145px;
   background-color:#67C3F3;
   color:#fff;
 
 
 }
 .footer_inner {
-  display: inline-block;
+justify-content: space-between;
+  display: flex;
+  
+}
+.wrapper-footer-logo {
   width: 386px;
+
+
+}
+.footer_logo_link {
+  display: block;
+  margin-bottom: 22px;
 }
 .footer_list {
-  display: inline-block;
+  display: flex;
+  width: 700px;
+  justify-content: space-between;
+  padding-left: 0;
   list-style: none;
 }
+.footer_text {
+  margin: 0 0 31px;
+
+}
 .type_list {
+  padding-left: 0;
   list-style: none;
 
 
 }
 .footer_item {
-  display: inline-block;
+ 
 }
+
 
 
 .type_item {
   font-size: 18px;
+  margin: 0 0 10px;
   
 }
 .footer_item_title {
+  display: inline-block;
   font-size: 20px;
-  
+  margin: 0 0 20px;
 }
